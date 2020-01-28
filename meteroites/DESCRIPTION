@@ -1,0 +1,24 @@
+Package: meteroites
+Type: Package
+Title: Analysing of confirmed meteroites, which landed on earth 
+Version: 0.1.0
+Author: person("Joel", "Kischkel", email = "joel.kischkel@icloud.com",
+          role = c("aut", "cre")
+Maintainer: Joel Kischkel <joel.kischkel@icloud.com>
+Description: More about what it does (maybe more than one line)
+    Use four spaces when indenting paragraphs within the Description.
+License: use_mit_license()
+Depends: R (>= 3.1.0)
+Encoding: UTF-8
+LazyData: true
+Imports:
+    devtools,
+    usethis,
+    httr,
+    readr,
+    stringdist,
+    parallel,
+    ggplot2,
+    maps,
+    mapproj
+RoxygenNote: 7.0.2
